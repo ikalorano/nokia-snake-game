@@ -1,0 +1,41 @@
+html, body {
+    margin: 20;
+    padding: 10;
+    background: #E6E600;
+    text-align: center;
+    color: #4B0099;
+    
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px #4B0099;
+    margin: 20px auto;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: #42B312;
+}
+
+.apple {
+    background-color: #E617D8;
+}
+
+.controls {
+    
+}
+
+#start {
+    background: #4B0099;
+    color: #E6E600;
+    font-weight: 900;
+}
